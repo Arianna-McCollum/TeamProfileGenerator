@@ -32,13 +32,13 @@ test("get name from getName()", () => {
 test("get id from getId()", () => {
     const testValue = 80;
     const e = new Employee("Adam", testValue);
-    expect(e.getId).toBe(testValue);
+    expect(e.getId()).toBe(testValue);
 });
 
 test("get email from getEmail()", () => {
     const testValue = "test@test.com";
     const e = new Employee("Adam", 1, testValue);
-    expect(e.getEmail).toBe(testValue);
+    expect(e.getEmail()).toBe(testValue);
 });
 
 test("return of getRole()",() => {
