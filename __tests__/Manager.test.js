@@ -1,6 +1,5 @@
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
-const { TestWatcher } = require("jest");
 
 test("Set office number from constructor", () =>{
     const testValue = 100; 
@@ -18,4 +17,4 @@ test("get office number from getOfficeNumber()", () => {
     const testValue = 80;
     const e = new Manager("Adam", 1, "test@test.com", testValue);
     expect(e.getOfficeNumber()).toBe(testValue);
-})
+});
