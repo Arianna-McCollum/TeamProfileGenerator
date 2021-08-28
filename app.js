@@ -17,15 +17,14 @@ let team = [];
 
 
 //Manager comes first
-function buildManager() {
+function displayManager() {
   try {
     inquirer.prompt(questions.managerQuestions).then(function (answers) {
-      //  creates manager object and pushes manager data in team array
       const manager = new Manager(
         answers.manager_name,
         answers.manager_id,
         answers.manager_email,
-        answers.manager_officeNo
+        answers.manager_office
       );
       team.push(manager);
 
@@ -128,8 +127,8 @@ function writeToFile(htmlData) {
 }
 
 function init() {
-  console.log("Welcome to Team Profile Generator! Build your team :");
-  buildManager();
+  console.log("Welcome! Let's build your team :");
+  displayManager();
 }
 
 init();
