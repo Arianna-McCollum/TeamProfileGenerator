@@ -1,4 +1,3 @@
-
   <h1 align="center">Team Profile Generator</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT-blue)<br>
@@ -21,4 +20,7 @@
 
 ## Tests
 Yes
+
+*How it should look*
+https://user-images.githubusercontent.com/84581536/131200319-4f3ce122-34d8-411e-83c9-eac2b68a67ca.mp4
 
