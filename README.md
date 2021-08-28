@@ -12,7 +12,7 @@
   - [Tests](#tests)
 
   ## Installation
-  npm init, npm install inquirer, npm install jest --save-dev, and then type "node app in command line"
+  npm init, npm install inquirer, npm install jest --save-dev, and then type "node app" in command line.
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-blue)<br>
