@@ -22,5 +22,8 @@
 Yes
 
 *How it should look*
-https://user-images.githubusercontent.com/84581536/131200319-4f3ce122-34d8-411e-83c9-eac2b68a67ca.mp4
+
+https://user-images.githubusercontent.com/84581536/131200349-f05975ed-b500-4d03-b9ad-8dc18e8e139b.mp4
+
+
 
