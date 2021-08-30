@@ -39,7 +39,7 @@ function displayManager() {
 
 //builds the team
 async function buildTeam() {
-  while (true) {
+  while (true) {    
     await inquirer
       .prompt([
         {
